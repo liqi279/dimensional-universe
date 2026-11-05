@@ -1,0 +1,12 @@
+{
+  "name": "dimensional-universe",
+  "version": "0.0.1",
+  "description": "次元宇宙 Dimensional Universe - 2D/2.5D/3D 多元视角横版游戏概念（与绘梦 AI 动漫创作平台联动）",
+  "main": "interface/huimeng-bridge.js",
+  "scripts": {
+    "test:bridge": "node -e \"const {HuimengBridge}=require('./interface/huimeng-bridge.js'); console.log('bridge loaded:', typeof HuimengBridge);\""
+  },
+  "keywords": ["game", "2d", "2.5d", "3d", "cyber", "huimeng"],
+  "author": "liqi279",
+  "license": "MIT"
+}
